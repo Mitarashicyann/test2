@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+
+body{
+    position:relative;
+    text-align: center; /*中央揃え*/
+    background-color: #f1f4fa; /*背景色*/
+    font-family: monospace; /*フォント*/
+    color:#0c1765; /*文字色*/
+
+    .big2box{
+        font-size: 15px;
+        position: relative;/*親要素にrelative*/
+        background-color: #f1f4fa;
+       /* display: flex;*/
+        padding: 10px;              /* 余白指定 */
+        height: 500px;              /* 高さ指定 */
+        margin: auto;
+        width: 900px;   
+       /* overflow: hidden;/*親要素と子要素を同じ高さにする*/
+       /* display: flow-root;*/
+
+    }
+
+    .haichi2{
+        position: absolute;/*重ねたい子要素にabsolute*/
+        float: right;
+        /*margin-left: 400px;*/
+        margin: 40px 800px 20px 400px;
+
+
+
+    }
+
+    .left02{
+        float: left;
+        padding:50px 200px 50px 10px;
+        position: relative;/*親要素にrelative*/
+  
+    }
+
+    .left2{
+      float: right;
+      margin: 0 0 0 auto;
+      width: 500px;
+      height:70px;
+      border-radius:10px;/*下地になっているbox角*/
+      position: relative;/*親要素にrelative*/
+      
+      /*background-color: aquamarine;
+      /*overflow: hidden;/*親要素と子要素を同じ高さにする*/
+
+    }
+   .left22{
+/*      float: right;
+      width: 480px;
+      height:58px;
+ */     
+      border-radius:10px;     
+    }
+   .clear2{
+      clear: both;
+      padding-top: 5px; /*ボックス幅*/
+    }
+
+    .box02{
+        color: #0c1765;
+        text-align: center;
+        padding: 200px 200px 0px 10px;
+    }
+
+    .box12{
+      background-color:#93a8d8;
+      margin: 15px 0px 0px auto;
+      top:-50px;/*左上に配置*/
+      right: 30px;
+      position: relative;/*親要素にrelative*/
+
+    }
+    .box22{
+        
+        position: absolute;/*重ねたい子要素にabsolute*/
+        border: 5px solid #93a8d8;
+        /*color: #0c1765;*/
+        background-color: #93a8d8; 
+        margin: 15 0 0 auto;
+        padding: 0px; /*要素の内側*/
+        border-radius:10px;
+        width: 60px;
+        height: 60px;
+        top:-15px;/*左上に配置*/
+        left: 0;/*左上に配置*/
+
+    
+    }
+
+   
+
+    .box32{
+        font-size: 20px;
+        position: absolute;/*重ねたい子要素にabsolute*/
+       text-align: center;
+        /*vertical-align: middle;*/
+        text-decoration: none;
+        width: 410px;
+        height: 50px;
+        padding: 5px 0px 5px 10px; /*要素の内側*/
+        font-weight: bold;
+        border: 5px solid #0c1765;
+        color: #0c1765;
+        background-color: #fff;
+        /*border-radius:10px;*/
+        top:0px;/*左上に配置*/
+        right: 0;/*左上に配置*/
+   }
+    .box3_12{
+        position: absolute;/*重ねたい子要素にabsolute*/
+        text-align: center;
+        /*vertical-align: middle;*/
+        text-decoration: none;
+        width: 410px;
+        height: 35px;
+        padding: 15px 0px 15px 10px; /*要素の内側*/
+        font-weight: bold;
+       border: 5px solid #0c1765;
+        color: #0c1765;
+        background-color: #fff;
+        /*border-radius:10px;*/
+        top:0;/*左上に配置*/
+        right: 0;/*左上に配置*/
+    }
+}

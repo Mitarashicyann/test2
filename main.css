@@ -1,0 +1,300 @@
+@charset "utf-8";
+
+body {
+
+    
+    position:relative;
+    text-align: center; /*中央揃え*/
+    background-color: #f7faf1; /*背景色*/
+    /*font-family: monospace; /*フォント*/
+    color:#0c1765; /*文字色*/
+    
+    /*.box{
+        padding: 10px;              /* 余白指定 */
+    /*    background-color:  #f1f4fa;    /* 背景色指定 */
+    /*    height: 100px;              /* 高さ指定 */
+    /*  }*/
+
+
+    .noto-serif-jp-font {
+      font-family: "Noto Serif JP", serif;
+      font-optical-sizing: auto;
+      font-weight: 800;
+      font-style: normal;
+    }      
+      .boxfirst{
+        display: flow-root;
+        padding: 10px;              /* 余白指定 */
+        background-color:  #f1f4fa;    /* 背景色指定 */
+        height: 780px;              /* 高さ指定 */
+        margin: auto;
+        width: 900px;
+    }  
+
+    .kakko{
+        font-size: 30px;
+    }
+
+    .service{
+        font-size: 25px;
+    }
+
+    .hekotxt{
+        font-size: 24px;
+    }
+    .box_txt{
+        font-size: 15px;
+        text-align: center;
+        background-color: #0c1765;  /* 背景色指定 */
+        width: 600px;               /* 幅指定 */
+        height: 180px;               /* 高さ指定 */
+        margin: 20px auto;            /* 中央寄せ */
+        color:#fff;                /*文字色*/
+        border-radius:70px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+      }
+
+      .box_form {  /*登録ボックス*/
+        display: block;
+        text-align: center;
+        /*vertical-align: middle;*/
+        text-decoration: none;
+        width: 350px;
+        margin: 10px auto;
+        height: auto;
+        padding: 0 20px 0 20px;
+        font-weight: bold;
+        border: 5px solid #0c1765;
+        color: #0c1765;
+        background-color: #fff;
+        border-radius:10px;
+
+    }
+    .box_form10 {
+        display: block;
+        text-align: center;
+        /*vertical-align: middle;*/
+        text-decoration: none;
+        width: 350px;
+        margin: 140 0 0 auto;
+        height: auto;
+        padding: 0 10px 0 10px;
+        font-weight: bold;
+        border: 5px solid #0c1765;
+        color: #0c1765;
+        background-color: #fff;
+        border-radius:10px;
+    
+    }
+
+    .hekoimg {
+        display: block;
+        text-align: center;
+        /*vertical-align: middle;*/
+        text-decoration: none;
+        margin: 15  auto;
+        height: auto;
+        padding: 5 20 5 20;
+        font-weight: bold;
+        border: 5px solid #0c1765;
+        color: #0c1765;
+        background-color: #fff;
+        border-radius:10px;
+    }
+
+
+
+    
+    .box_4pare{
+        /*display: flex;*/
+        padding: 10px;              /* 余白指定 */
+        background-color:  #f1f4fa;    /* 背景色指定 */
+        height: 400px;              /* 高さ指定 */
+        margin: auto;
+        width: 900px;   
+        overflow: hidden;/*親要素と子要素を同じ高さにする*/
+        display: flow-root;
+
+    }
+    .box4_right2{
+        display: block;
+        text-align: center;
+        /*vertical-align: middle;*/
+        text-decoration: none;
+        width: 400px;
+        margin: 15 0 0 auto;/*要素の外側*/
+        height: auto;
+        padding: 5 20 5 20; /*要素の内側*/
+        font-weight: bold;
+        border: 5px solid #0c1765;
+        color: #0c1765;
+        background-color: #fff;
+        border-radius:10px;
+    }
+    .box4_right2_1 {
+        display: block;
+        text-align: center;
+        /*vertical-align: middle;*/
+        text-decoration: none;
+        width: 400px;
+        margin: 15 0 0 auto;
+        height: auto;
+        padding: 20 20 20 20;
+        font-weight: bold;
+        border: 5px solid #0c1765;
+        color: #0c1765;
+        background-color: #fff;
+        border-radius:10px;
+    }
+
+    a.btn_01 {
+        display: block;
+        text-align: center;
+        /*vertical-align: middle;*/
+        text-decoration: none;
+        width: 160px;
+        margin: auto;
+        padding: 0 5px 0 5px;
+        /*font-weight: bold;*/
+        color: #fff;
+        background-color: #0c1765;
+        border-radius:25px;
+        transition: 0.5s;
+    }
+        a.btn_01:hover {
+            color: #fff;
+            background: #27acd9;
+        }
+
+        .box6{
+        
+            display: flow-root;
+            padding: 10px;              /* 余白指定 */
+            background-color:  #f1f4fa;    /* 背景色指定 */
+            height: 550px;              /* 高さ指定 */
+            margin: auto;
+            width: 900px;
+            }        
+            .box6_left{
+                float: left;
+                margin: 160 20 120 30 ;
+            }
+            .box6_right{
+                float: right;
+                margin:150 20 110 30 ;
+
+            }
+
+        /*メンバー*/
+        .box7{
+        
+            display: flow-root;
+            padding: 10px;              /* 余白指定 */
+            background-color:  #f1f4fa;    /* 背景色指定 */
+            height: 550px;              /* 高さ指定 */
+            margin: auto;
+            width: 900px;
+        }        
+            .box7_left{
+                font-size: 35px;
+                float: left;
+                margin: 250 20 150 50 ;
+            }
+            .box7_right{
+                float: right;
+                margin: 50 30 auto 0 ; 
+            }
+
+            
+
+            
+
+
+        /*アルシエが選ばれる理由*/
+    .box_8pare{
+        
+        display: flow-root;
+        padding: 10px;              /* 余白指定 */
+        background-color:  #f1f4fa;    /* 背景色指定 */
+        height: 550px;              /* 高さ指定 */
+        margin: auto;
+        width: 900px;   
+    }
+        
+        .box8 {
+            font-size: 20px;
+            display: flow-root;
+            text-align: center;
+            vertical-align: middle;
+            text-decoration: none;
+            width: 500px;
+            margin: 15 auto;
+            height: auto;
+            padding: 5 20 5 20;
+            font-weight: bold;
+            border: 5px solid #0c1765;
+            color: #0c1765;
+            background-color: #fff;
+            border-radius:10px;
+            
+        }
+    
+        .box8_left{
+            font-size: 18px;
+            float: left;
+            margin: 240 auto 200 100 ;
+        }
+        .box8_right{
+            float: right;
+            margin: 50 auto ; 
+        }
+
+        /*キャンペーンご案内*/
+    .box9{
+        
+        display: flow-root;
+        padding: 10px;              /* 余白指定 */
+        background-color:  #f1f4fa;    /* 背景色指定 */
+        height: 450px;              /* 高さ指定 */
+        margin: auto;
+        width: 900px;
+    }        
+        .box9_left{
+            font-size: 20px;
+            float: left;
+            margin: 200 auto 200 100 ;
+        }
+        .box9_right{
+            float: right;
+            margin: 45 35 auto auto ; 
+        }
+        /*その他*/
+    .box10{
+        
+        display: flow-root;
+        padding: 10px;              /* 余白指定 */
+        background-color:  #f1f4fa;    /* 背景色指定 */
+        height: 400px;              /* 高さ指定 */
+        margin: auto;
+        width: 900px;
+    }        
+        .box10_left{
+            font-size: 25px;
+            float: left;
+        }
+        .box10_right{
+            font-size: 25px;
+            float: right;
+            margin:  20 auto; 
+        }
+        .box10_right2{
+            font-size: 15px;
+            float: right;
+            margin: 10 80 auto auto;
+        }
+
+    
+}
+

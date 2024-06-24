@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+
+body{
+    position:relative;
+    text-align: center; /*中央揃え*/
+    background-color: #f1f4fa; /*背景色*/
+    font-family: monospace; /*フォント*/
+    color:#0c1765; /*文字色*/
+
+    .bigbox{
+        position: relative;/*親要素にrelative*/
+        background-color: #f1f4fa;
+       /* display: flex;*/
+        padding: 10px;              /* 余白指定 */
+        height: 500px;              /* 高さ指定 */
+        margin: auto;
+        width: 900px;   
+       /* overflow: hidden;/*親要素と子要素を同じ高さにする*/
+       /* display: flow-root;*/
+
+    }
+
+    .haichi{
+        position: absolute;/*重ねたい子要素にabsolute*/
+        float: right;
+        /*margin-left: 400px;*/
+        margin: 70px 800px 20px 400px;
+
+
+
+    }
+
+    .left0{
+        float: left;
+        position: relative;/*親要素にrelative*/
+  
+    }
+
+    .left{
+      float: right;
+      margin: 20 0 0 auto;
+      width: 500px;
+      height:70px;
+      border-radius:10px;/*下地になっているbox角*/
+      position: relative;/*親要素にrelative*/
+      
+      /*background-color: aquamarine;
+      /*overflow: hidden;/*親要素と子要素を同じ高さにする*/
+
+    }
+   .left2{
+/*      float: right;
+      width: 480px;
+      height:58px;
+ */     
+      border-radius:10px;     
+    }
+   .clear{
+      clear: both;
+      padding-top: 20px;
+    }
+
+    .box0{
+        color: #0c1765;
+        text-align: center;
+        padding: 150px 200px 0px 100px;
+    }
+
+    .box1{
+      background-color:#f9a66c;
+      margin: 15px 0px 0px auto;
+      top:-40px;/*左上に配置*/
+      right: 30px;
+      position: relative;/*親要素にrelative*/
+
+    }
+    .box2{
+        position: absolute;/*重ねたい子要素にabsolute*/
+        border: 5px solid #f9a66c;
+        /*color: #0c1765;*/
+        background-color: #f9a66c; 
+        margin: 15 0 0 auto;
+        padding: 0px; /*要素の内側*/
+        border-radius:10px;
+        width: 60px;
+        height: 60px;
+        top:-15px;/*左上に配置*/
+        left: 0;/*左上に配置*/
+
+    
+    }
+
+    .box3{
+        font-size: 20px;
+        position: absolute;/*重ねたい子要素にabsolute*/
+       text-align: center;
+        /*vertical-align: middle;*/
+        text-decoration: none;
+        width: 410px;
+        height: 50px;
+        padding: 5px 0px 5px 10px; /*要素の内側*/
+        font-weight: bold;
+        border: 5px solid #0c1765;
+        color: #0c1765;
+        background-color: #fff;
+        /*border-radius:10px;*/
+        top:-20px;/*左上に配置*/
+        right: 0;/*左上に配置*/
+   }
+    .box3_1{
+        position: absolute;/*重ねたい子要素にabsolute*/
+        text-align: center;
+        /*vertical-align: middle;*/
+        text-decoration: none;
+        width: 410px;
+        height: 35px;
+        padding: 15px 0px 15px 10px; /*要素の内側*/
+        font-weight: bold;
+       border: 5px solid #0c1765;
+        color: #0c1765;
+        background-color: #fff;
+        /*border-radius:10px;*/
+        top:0;/*左上に配置*/
+        right: 0;/*左上に配置*/
+    }
+}
